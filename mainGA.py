@@ -24,7 +24,7 @@ def d2b(*arg):
 		outLenDet=arg[1]
 		outLen=max(outLenMin,outLenDet)
 		if outLenDet<outLenMin:
-			disp('Determined Binnary Size Is Smaller Than Output Binnary Size')
+			print('Determined Binnary Size Is Smaller Than Output Binnary Size')
 	
 	# initialize 
 	shift=outLen-outLenMin
